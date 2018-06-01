@@ -1,0 +1,14 @@
+<template>
+    <div>
+        <span>
+            Add Person:
+            <input size="20" type="text" value.two-way="currentForename" on-enter.call="addPerson()">
+            <input size="20" type="text" value.two-way="currentSurname" on-enter.call="addPerson()">
+            <button type="button" click.trigger="addPerson()">Add</button>
+        </span>
+    </div>
+    <div>
+        <p>Current Person List:</p>
+        <p repeat.for="person of people">${person.id} :: ${person.surname}, ${person.forename} <button type="button" click.trigger="deletePerson(person)">Delete</button></p>
+    </div>
+</template>

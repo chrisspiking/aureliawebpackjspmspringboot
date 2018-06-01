@@ -1,0 +1,32 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "rootDir": "aurelia_src",
+        "sourceMap": true,
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "noEmitOnError": true,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "suppressExcessPropertyErrors": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "allowUnusedLabels": true,
+        "allowUnreachableCode": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+        "node_modules",
+        "jspm_packages"
+    ],
+    "filesGlob": [
+        "typings",
+        "./jspm_packages/**/*.ts",
+        "./node_modules/**/*.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": false
+    }
+}

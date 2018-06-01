@@ -1,0 +1,38 @@
+{
+  "main": "index.html",
+  "preferGlobal": false,
+  "private": false,
+  "jspm": {
+    "dependencies": {
+      "aurelia-binding": "npm:aurelia-binding@^1.7.1",
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^2.2.0",
+      "aurelia-dialog": "npm:aurelia-dialog@^1.0.0-rc.2.0.0",
+      "aurelia-event-aggregator": "npm:aurelia-event-aggregator@^1.0.1",
+      "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.3.1",
+      "aurelia-framework": "npm:aurelia-framework@^1.2.0",
+      "aurelia-http-client": "npm:aurelia-http-client@^1.2.1",
+      "aurelia-loader": "npm:aurelia-loader@^1.0.0",
+      "aurelia-pal-browser": "npm:aurelia-pal-browser@^1.8.0",
+      "aurelia-router": "npm:aurelia-router@^1.5.0",
+      "jquery": "npm:jquery@^2.2.4",
+      "sockjs-client": "npm:sockjs-client@^1.1.4",
+      "stompjs": "npm:stompjs@^2.3.3"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^2.0.7"
+    }
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "gulp": "^3.9.1",
+    "minimatch": "^3.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^10.1.2",
+    "@types/socket.io": "^1.4.33",
+    "@types/socket.io-client": "^1.4.32",
+    "@types/sockjs-client": "^1.1.0",
+    "@types/stompjs": "^2.3.3",
+    "typescript": "^2.8.3"
+  }
+}
