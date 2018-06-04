@@ -2,6 +2,13 @@
 Simple project to try getting a Spring Boot server to serve / work with both a webpack aurelia project as well as a jspm version
 
 Installation: 
+ 
+You well need jspm and typings installed.
+
+```
+npm install jspm -g
+npm install typings -g
+```
 
 Within ```src/main/resources/static/aureliajspm```, run the following:
 
