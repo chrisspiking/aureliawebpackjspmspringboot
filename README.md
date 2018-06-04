@@ -3,7 +3,9 @@ Simple project to try getting a Spring Boot server to serve / work with both a w
 
 Installation: 
  
-You well need jspm and typings installed.
+You will need node 8.11+ and npm version 5.6.0 installed.
+
+You will need jspm and typings installed.
 
 ```
 npm install jspm -g
@@ -34,3 +36,7 @@ npm install
 To run, execute the Application.class through Java to spin up Spring Boot.
 
 Please note that currently the aureliawebpack side of this application is not working.
+
+There is a chance that systemjs will have a problem because of a version variable bug in registry-endpoint. If this happens, you'll need to make the change seen here in your npm_modules repo for registry-endpoint:
+
+https://github.com/jspm/registry-endpoint/pull/19/commits/7c7a281037e5591d7e8b94d2719fe9e05a3139fc
